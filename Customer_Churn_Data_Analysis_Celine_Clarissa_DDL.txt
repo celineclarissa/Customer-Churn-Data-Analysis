@@ -1,0 +1,80 @@
+==========================================================================================================================================
+
+Customer Churn Data Analysis
+
+Name: Celine Clarissa
+
+Original Dataset: https://www.kaggle.com/datasets/athu1105/book-genre-prediction/data
+
+
+Background
+
+A company providing products to customers must know the demographics and characteristics of their customers in order to minimize
+customer churn.
+
+Problem Statement and Objective
+
+As a data analyst at a company, skills of understanding the market and extracting business insights from data are needed. By analyzing
+customer churn data, it is possible to find out about user demographic, as well as their browsing behavior. After gaining information
+from data, it is targeted for the company to strategize plans correlating to business insights. These insights are aimed to be displayed
+in the form of a dashboard after 5 working days.
+
+==========================================================================================================================================
+
+DDL Syntax: 
+create table "P2M3_Celine_Clarissa_Data_Raw" (
+	"Unnamed: 0" int, 
+	"Age" int, 
+	"Gender" varchar(100),
+	"Security No" varchar(100),
+	"Region Category" varchar(100),
+	"Membership Category" varchar(100),
+	"Joining Date" varchar(100),
+	"Joined Through Referral" varchar(100),
+    "Referral ID" varchar(100),
+	"Preferred Offer Types" varchar(100),
+	"Medium of Operation" varchar(100),
+    "Internet Option" varchar(100),
+	"Last Visit Time" varchar(100),
+	"Days Since Last Login" int,
+    "Average Time Spent" float,
+	"Average Transaction Value" float,
+    "Average Frequency Login Days" varchar(100),
+	"Points in Wallet" float,
+    "Used Special Discount" varchar(100),
+	"Offer Application Preference" varchar(100),
+    "Past Complaint" varchar(100),
+	"Complaint Status" varchar(100),
+	"Feedback" varchar(100),
+	"Churn Risk Score" int
+);
+
+DML Syntax: 
+copy "P2M3_Celine_Clarissa_Data_Raw"(	
+	"Unnamed: 0", 
+	"Age", 
+	"Gender",
+	"Security No",
+	"Region Category",
+	"Membership Category",
+	"Joining Date",
+	"Joined Through Referral",
+    "Referral ID",
+	"Preferred Offer Types",
+	"Medium of Operation",
+    "Internet Option",
+	"Last Visit Time",
+	"Days Since Last Login",
+    "Average Time Spent",
+	"Average Transaction Value",
+    "Average Frequency Login Days",
+	"Points in Wallet",
+    "Used Special Discount",
+	"Offer Application Preference",
+    "Past Complaint",
+	"Complaint Status",
+	"Feedback",
+	"Churn Risk Score")
+from 'C:\Users\User\hacktiv8\Phase 2\Milestone\p2-ftds006-bsd-m3-celineclarissa\P2M3_Celine_Clarissa_Data_Raw.csv'
+delimiter ','
+csv header;
