@@ -1,11 +1,11 @@
 # Customer Churn Data Analysis 📉
-This repository showcases how I created an airflow to fetch data from PostGre, do data cleaning, and upload data to ElasticSearch and Kibana. Analyzed characteristics of churned and non churned customers, as well as gained insight to minimize customer churn rate. Analysis was visualized in a dashboard using Kibana.
+This repository demonstrates how I built an Airflow pipeline to extract data from PostgreSQL, perform data cleaning, and load the processed data into Elasticsearch for visualization in Kibana. The project includes an analysis of the characteristics of churned versus retained customers, offering actionable insights to help reduce customer churn. The findings are presented through an interactive dashboard created in Kibana.
 
 ## Background ❓
 A company providing products to customers must know the demographics and characteristics of their customers in order to minimize customer churn.
 
 ## Problem Statement 🔍
-As a data analyst at a company, skills of understanding the market and extracting business insights from data are needed. By analyzing customer churn data, it is possible to find out about user demographic, as well as their browsing behavior. After gaining information from data, it is targeted for the company to strategize plans correlating to business insights. These insights are aimed to be displayed in the form of a dashboard after 5 working days.
+As a data analyst at the company, it is essential to understand the market and extract actionable business insights from data. By analyzing customer churn data, we can uncover patterns in user demographics and browsing behavior. These insights enable the company to develop strategic plans aligned with customer behavior. The final analysis is intended to be visualized in a dashboard within 5 working days.
 
 ## Methods Used 📊
 * Data Analysis

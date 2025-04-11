@@ -15,10 +15,10 @@ customer churn.
 
 Problem Statement and Objective
 
-As a data analyst at a company, skills of understanding the market and extracting business insights from data are needed. By analyzing
-customer churn data, it is possible to find out about user demographic, as well as their browsing behavior. After gaining information
-from data, it is targeted for the company to strategize plans correlating to business insights. These insights are aimed to be displayed
-in the form of a dashboard after 5 working days.
+As a data analyst at the company, it is essential to understand the market and extract actionable business insights from data. By
+analyzing customer churn data, we can uncover patterns in user demographics and browsing behavior. These insights enable the company
+to develop strategic plans aligned with customer behavior. The final analysis is intended to be visualized in a dashboard within 5
+working days.
 
 ==========================================================================================================================================
 '''
